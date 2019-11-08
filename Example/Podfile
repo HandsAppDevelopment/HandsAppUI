@@ -1,6 +1,0 @@
-use_frameworks!
-target 'HandsAppUI_Tests' do
-  pod 'HandsAppUI', :path => '../'
-  
-  
-end
