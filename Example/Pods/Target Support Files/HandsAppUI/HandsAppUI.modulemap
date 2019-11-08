@@ -1,0 +1,6 @@
+framework module HandsAppUI {
+  umbrella header "HandsAppUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

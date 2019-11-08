@@ -1,0 +1,22 @@
+{
+  "name": "HandsAppUI",
+  "version": "0.1.0",
+  "summary": "A short description of HandsAppUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HandsAppTeam/HandsAppUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HandsAppTeam": "6nike6@bk.ru"
+  },
+  "source": {
+    "git": "https://github.com/HandsAppTeam/HandsAppUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HandsAppUI/Classes/**/*"
+}
