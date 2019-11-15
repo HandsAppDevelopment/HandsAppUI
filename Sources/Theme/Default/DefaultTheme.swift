@@ -6,10 +6,10 @@
 //  Copyright © 2019 Handsapp. All rights reserved.
 //
 
-struct DefaultTheme: Theme {
+public struct DefaultTheme: Theme {
 
     private init() { }
 
-    static let colorPallete: ColorPallete.Type = DefaultColorPalette.self
-    static let typography: Typography.Type = DefaultTypography.self
+    public static let colorPallete: ColorPallete.Type = DefaultColorPalette.self
+    public static let typography: Typography.Type = DefaultTypography.self
 }

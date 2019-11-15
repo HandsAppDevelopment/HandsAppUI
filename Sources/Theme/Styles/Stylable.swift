@@ -28,7 +28,7 @@ extension UIView: Stylable { }
 public extension Stylable {
 
     var theme: Theme.Type {
-        guard let appDelegate = UIApplication.shared.delegate else {
+        guard let appDelegate = UIApplication.shared.delegate as? HandsAppDelegate else {
             fatalError("AppDelegate was not set")
         }
         return appDelegate.theme

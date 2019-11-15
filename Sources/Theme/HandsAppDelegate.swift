@@ -8,12 +8,10 @@
 
 import UIKit
 
-extension UIApplicationDelegate {
+public protocol HandsAppDelegate: UIApplicationDelegate {
 
     /**
-     Override this property to set custom theme.
+     Implement this property to set custom theme.
      */
-    public var theme: Theme.Type {
-        return DefaultTheme.self
-    }
+    var theme: Theme.Type { get }
 }
