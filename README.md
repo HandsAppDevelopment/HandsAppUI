@@ -16,7 +16,7 @@ pod 'HandsAppUI'
 
 ## Author
 
-HandsAppTeam, hello@handsapp.ru
+Nikita Krasavin, nikita_krasavin@bk.ru
 
 ## License
 
