@@ -12,21 +12,21 @@ public extension StyleWrapper where Element == UITextField {
 
     /// Color textField with onPrimary color from app theme palette
     static let onPrimaryColor: StyleWrapper = .wrap { textField, theme in
-        textField.textColor = theme.colorPallete.onPrimary
+        textField.textColor = theme.colorPalette.onPrimary
     }
 
     /// Color textField with onSecondary color from app theme palette
     static let onSecondaryColor: StyleWrapper = .wrap { textField, theme in
-        textField.textColor = theme.colorPallete.onSecondary
+        textField.textColor = theme.colorPalette.onSecondary
     }
 
     /// Color textField with onBackground color from app theme palette
     static let onBackgroundColor: StyleWrapper = .wrap { textField, theme in
-        textField.textColor = theme.colorPallete.onBackground
+        textField.textColor = theme.colorPalette.onBackground
     }
 
     /// Color textField with onSurface color from app theme palette
     static let onSurfaceColor: StyleWrapper = .wrap { textField, theme in
-        textField.textColor = theme.colorPallete.onSurface
+        textField.textColor = theme.colorPalette.onSurface
     }
 }

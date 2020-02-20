@@ -1,5 +1,5 @@
 //
-//  ColorPallete.swift
+//  ColorPalette.swift
 //  DesignElements
 //
 //  Created by Никита Красавин on 06/09/2019.
@@ -9,11 +9,11 @@
 import UIKit
 
 /**
- Color pallete with colors from the baseline MaterialDesign theme
+ Color palette with colors from the baseline MaterialDesign theme
  https://material.io/design/color/
  */
 
-public protocol ColorPallete {
+public protocol ColorPalette {
 
     static var primary: UIColor { get }
     static var primaryVariant: UIColor { get }

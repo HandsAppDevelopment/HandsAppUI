@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct DefaultColorPalette: ColorPallete {
+struct DefaultColorPalette: ColorPalette {
 
     private init() { }
 

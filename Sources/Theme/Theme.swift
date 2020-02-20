@@ -7,10 +7,10 @@
 //
 
 /**
- App theme whith color pallete
+ App theme whith color palette
  */
 
 public protocol Theme {
-    static var colorPallete: ColorPallete.Type { get }
+    static var colorPalette: ColorPalette.Type { get }
     static var typography: Typography.Type { get }
 }
