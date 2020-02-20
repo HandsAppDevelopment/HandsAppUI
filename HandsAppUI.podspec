@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/HandsAppTeam/HandsAppUI.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Sources/Layout/*.swift', 'Sources/Theme/**/*', 'Sources/Extensions/*.swift', 'Sources/Components/**/**/*'
+  s.source_files = 'Sources/Layout/*.swift', 'Sources/Theme/**/*', 'Sources/Extensions/*.swift', 'Sources/Styles/**/*'
   s.swift_version = '5.1'
   s.frameworks = 'UIKit'
 end
