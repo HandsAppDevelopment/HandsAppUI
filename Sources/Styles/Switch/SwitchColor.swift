@@ -1,4 +1,3 @@
-import HandsAppUI
 import UIKit
 
 public extension StyleWrapper where Element == UISwitch {
