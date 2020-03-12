@@ -50,6 +50,7 @@ struct DefaultColorPalette: ColorPalette {
             return .white
         }
     }()
+    static let error = UIColor(rgb: 0xF02345)
 
     static let onPrimary: UIColor = {
         if #available(iOS 13.0, *) {
@@ -103,5 +104,6 @@ struct DefaultColorPalette: ColorPalette {
     }()
 
     static let onSurface: UIColor = UIColor(rgb: 0x9A9A9A)
+    static let onError = UIColor(rgb: 0xFFFFFF)
 
 }
