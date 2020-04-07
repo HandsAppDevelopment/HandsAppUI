@@ -13,6 +13,16 @@ public extension StyleWrapper where Element == UILabel {
         label.textColor = theme.colorPalette.secondary
     }
 
+    /// Color label with primaryVariant color from app theme palette
+    static let primaryVariantColor: StyleWrapper = .wrap { label, theme in
+        label.textColor = theme.colorPalette.primaryVariant
+    }
+
+    /// Color label with secondaryVariant color from app theme palette
+    static let secondaryVariantColor: StyleWrapper = .wrap { label, theme in
+        label.textColor = theme.colorPalette.secondaryVariant
+    }
+
     /// Color label with onPrimary color from app theme palette
     static let onPrimaryColor: StyleWrapper = .wrap { label, theme in
         label.textColor = theme.colorPalette.onPrimary
@@ -31,5 +41,15 @@ public extension StyleWrapper where Element == UILabel {
     /// Color label with onSurface color from app theme palette
     static let onSurfaceColor: StyleWrapper = .wrap { label, theme in
         label.textColor = theme.colorPalette.onSurface
+    }
+
+    /// Color label with error  color from app theme palette
+    static let errorColor: StyleWrapper = .wrap { label, theme in
+        label.textColor = theme.colorPalette.error
+    }
+
+    /// Color label with onError color from app theme palette
+    static let onErrorColor: StyleWrapper = .wrap { label, theme in
+        label.textColor = theme.colorPalette.onError
     }
 }
